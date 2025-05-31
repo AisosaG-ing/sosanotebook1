@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="sosanotebookpersonal.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ag.notebook/personal</title>
+    <style>
+        body {
+          background-image: url("28-Pristine.jpg");
+        }
+    </style>
+    
+    <link href='https://fonts.googleapis.com/css?family=Caveat' rel='stylesheet'>
+    <style>
+        body {
+            font-family: 'Caveat'; font-size: 22px;
+        }
+        </style>
+</head>
+<body>
+<nav id="desktop.nav">
+    <div class="namehead">
+        <a href="http://127.0.0.1:5500/sosanotebook.html">
+        <img src="text-1747194562785.png" height="40px">
+        <p class="para">Concept Designer|Animator|Doodlebug</p>
+        </a>
+    </div>
+
+    <div>
+        <ul class="nav-links">
+            <a href="sosanotebookabout.html">About</a>
+           <a href="sosanotebookpersonal.html">Personal</a>
+          <a href="sosanotebookanimated.html">Animated</a>
+            <a href="sosanotebookcomm.html">Commissions</a>
+        </ul>
+    </div>
+</nav>
+
+<h1 class="personal">PERSONAL WORK</h1>
+<br>
+
+<div class="full-img" id="Fullimgbox">
+    <img src="BEES.jpg" alt="BEES"height="600" id="Fullimg">
+    <span onclick="closeFullImg()">X</span>
+</div>
+
+
+
+<div class="img-gallery">
+    <img src="BEES.jpg" alt="BEES" height="300" onclick="openFullImg(this.src)">
+    <img src="FBWL Cresent.jpg" alt="RDtD" height="300" onclick="openFullImg(this.src)">
+    <img src="Psych2go Zine Anxiety (Bottom Half).png" alt=""height="300" width="600" onclick="openFullImg(this.src)">
+    <img src="Psych2go Zine.jpg" alt="" height="300" width="200" onclick="openFullImg(this.src)"> 
+    <img src="Smiles and Laughs.jpg" alt="" height="300" width="545" onclick="openFullImg(this.src)">
+    <img src="9ja food and music.jpg" alt="" height="300" width="250" onclick="openFullImg(this.src)">
+    <img src="CandLApple.jpg" alt="" height="300" width="300" onclick="openFullImg(this.src)">
+    <img src="They're Trans your honor 1.jpg" alt="" height="300" width="300" onclick="openFullImg(this.src)">
+    <img src="wait.jpg" alt="" height="300" width="250" onclick="openFullImg(this.src)">
+</div>
+
+<script>
+    var Fullimgbox = document.getElementById("Fullimgbox");
+    var Fullimg = document.getElementById("Fullimg");
+
+    function openFullImg (pic){
+        Fullimgbox.style.display = "flex";
+        Fullimg.src = pic;
+    }
+
+    function closeFullImg(pic){
+        Fullimgbox.style.display = "none";
+        Fullimg.src = pic;
+    }
+    
+</script>
+
+</body>
+</html>
+
+<footer>
+    <nav>
+       <div class="nav-links-container">
+        <ul class="nav-links">
+            <a href="sosanotebookabout.html">About</a>
+           <a href="sosanotebookpersonal.html">Personal</a>
+          <a href="sosanotebookanimated.html">Animated</a>
+            <a href="sosanotebookcomm.html">Commissions</a>
+        </ul>  
+       </div>
+    </nav>
+    <p>Copyright &#169; 2025 Aisosa Guobadia. All Rights Reserved.</p>
+    <br>
+</footer>
